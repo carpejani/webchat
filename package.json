@@ -36,7 +36,6 @@
     "server": "NODE_ENV=production nodemon app.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "start": "next start", 
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
