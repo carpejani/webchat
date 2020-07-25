@@ -25,3 +25,12 @@ Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo
 
 1. `yarn install`
 2. `yarn dev`
+### Development:
+
+yarn install
+yarn dev
+### Production:
+
+yarn install
+yarn build
+yarn server
