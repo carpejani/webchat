@@ -32,14 +32,15 @@
     "standard": "^14.3.3"
   },
   "scripts": {
-    "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"NODE_ENV=dev PORT=8000 react-scripts start\"",
+    "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"NODE_ENV=dev PORT=4001 react-scripts start\"",
     "server": "NODE_ENV=production nodemon app.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "start": "next start", 
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app" 
   },
   "browserslist": {
     "production": [
